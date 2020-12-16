@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Program
+    class Feature1
     {
-        static void Main(string[] args)
+        public int Add()
         {
-            //Code edited from Git Hub.
-            //Code added from Vs
-            //Code To Call Feature1
+            int x1 = 1;
+            int x2 = 2;
+            int sum = x1 + x2;
+            return sum;
         }
     }
 }
